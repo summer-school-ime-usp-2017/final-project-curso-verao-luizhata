@@ -7,4 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Medico extends Model
 {
     //
+    protected $fillable = [
+      'nome', 'crm', 'email'
+    ];
 }
